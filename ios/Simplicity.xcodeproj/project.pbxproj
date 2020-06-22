@@ -16,6 +16,12 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SimplicityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SimplicityTests.m */; };
+		5F6EFF2024A136D10005A4AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		5F6EFF2124A136D10005A4AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5F6EFF2324A136D10005A4AC /* libPods-Simplicity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E46DC19C03F0FB56B9126AB5 /* libPods-Simplicity.a */; };
+		5F6EFF2524A136D10005A4AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		5F6EFF2624A136D10005A4AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		5F6EFF2F24A137410005A4AC /* SimplicityDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F6EFF2D24A1373A0005A4AC /* SimplicityDev-Info.plist */; };
 		8B08587767C847789254EFD3 /* libPods-Simplicity-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D05AA5AC09B1986E33B9F24 /* libPods-Simplicity-tvOS.a */; };
 		96E3E8C06ABF4F1EB78F84D7 /* libPods-Simplicity-SimplicityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B539E11F1A75A5FDC3E68B7 /* libPods-Simplicity-SimplicityTests.a */; };
 		C0F322A5FA9E97BCCA863A37 /* libPods-Simplicity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E46DC19C03F0FB56B9126AB5 /* libPods-Simplicity.a */; };
@@ -58,6 +64,8 @@
 		404F9C4DEE1E4534721CDAD1 /* libPods-Simplicity-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Simplicity-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456F1A4AB0D44F953662B893 /* Pods-Simplicity-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simplicity-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Simplicity-tvOS/Pods-Simplicity-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5DFE53B2222D73B9B72EE337 /* Pods-Simplicity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simplicity.release.xcconfig"; path = "Target Support Files/Pods-Simplicity/Pods-Simplicity.release.xcconfig"; sourceTree = "<group>"; };
+		5F6EFF2B24A136D10005A4AC /* SimplicityDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplicityDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6EFF2D24A1373A0005A4AC /* SimplicityDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimplicityDev-Info.plist"; sourceTree = "<group>"; };
 		67A82A37AC2D009608A479B0 /* Pods-Simplicity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simplicity.debug.xcconfig"; path = "Target Support Files/Pods-Simplicity/Pods-Simplicity.debug.xcconfig"; sourceTree = "<group>"; };
 		70605A2AD3DEA6F5403CFAA7 /* Pods-Simplicity-SimplicityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simplicity-SimplicityTests.release.xcconfig"; path = "Target Support Files/Pods-Simplicity-SimplicityTests/Pods-Simplicity-SimplicityTests.release.xcconfig"; sourceTree = "<group>"; };
 		721118A0AFE8997E917DCA70 /* Pods-Simplicity-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simplicity-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Simplicity-tvOSTests/Pods-Simplicity-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +110,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F6EFF2224A136D10005A4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6EFF2324A136D10005A4AC /* libPods-Simplicity.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,7 +150,6 @@
 				721118A0AFE8997E917DCA70 /* Pods-Simplicity-tvOSTests.debug.xcconfig */,
 				C6899E1FF937F29996D99CB1 /* Pods-Simplicity-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +190,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5F6EFF2D24A1373A0005A4AC /* SimplicityDev-Info.plist */,
 				13B07FAE1A68108700A75B9A /* Simplicity */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SimplicityTests */,
@@ -194,6 +210,7 @@
 				00E356EE1AD99517003FC87E /* SimplicityTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* Simplicity-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* Simplicity-tvOSTests.xctest */,
+				5F6EFF2B24A136D10005A4AC /* SimplicityDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -279,6 +296,26 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* Simplicity-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5F6EFF1C24A136D10005A4AC /* SimplicityDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6EFF2824A136D10005A4AC /* Build configuration list for PBXNativeTarget "SimplicityDev" */;
+			buildPhases = (
+				5F6EFF1D24A136D10005A4AC /* [CP] Check Pods Manifest.lock */,
+				5F6EFF1E24A136D10005A4AC /* Start Packager */,
+				5F6EFF1F24A136D10005A4AC /* Sources */,
+				5F6EFF2224A136D10005A4AC /* Frameworks */,
+				5F6EFF2424A136D10005A4AC /* Resources */,
+				5F6EFF2724A136D10005A4AC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplicityDev;
+			productName = Simplicity;
+			productReference = 5F6EFF2B24A136D10005A4AC /* SimplicityDev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -322,6 +359,7 @@
 				00E356ED1AD99517003FC87E /* SimplicityTests */,
 				2D02E47A1E0B4A5D006451C7 /* Simplicity-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* Simplicity-tvOSTests */,
+				5F6EFF1C24A136D10005A4AC /* SimplicityDev */,
 			);
 		};
 /* End PBXProject section */
@@ -355,6 +393,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6EFF2424A136D10005A4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6EFF2524A136D10005A4AC /* Images.xcassets in Resources */,
+				5F6EFF2624A136D10005A4AC /* LaunchScreen.xib in Resources */,
+				5F6EFF2F24A137410005A4AC /* SimplicityDev-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +458,61 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		5F6EFF1D24A136D10005A4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simplicity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6EFF1E24A136D10005A4AC /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6EFF2724A136D10005A4AC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 		9976EE6A419E52C7C2D03925 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -552,6 +655,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F6EFF1F24A136D10005A4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6EFF2024A136D10005A4AC /* AppDelegate.m in Sources */,
+				5F6EFF2124A136D10005A4AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -637,12 +749,13 @@
 				);
 				INFOPLIST_FILE = Simplicity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplicity;
 				PRODUCT_NAME = Simplicity;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -659,12 +772,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Simplicity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplicity;
 				PRODUCT_NAME = Simplicity;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -781,6 +895,56 @@
 			};
 			name = Release;
 		};
+		5F6EFF2924A136D10005A4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A82A37AC2D009608A479B0 /* Pods-Simplicity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = "SimplicityDev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplicity.dev;
+				PRODUCT_NAME = SimplicityDev;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		5F6EFF2A24A136D10005A4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFE53B2222D73B9B72EE337 /* Pods-Simplicity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "SimplicityDev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplicity.dev;
+				PRODUCT_NAME = SimplicityDev;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -828,6 +992,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
@@ -881,6 +1048,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
@@ -929,6 +1099,15 @@
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
 				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6EFF2824A136D10005A4AC /* Build configuration list for PBXNativeTarget "SimplicityDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6EFF2924A136D10005A4AC /* Debug */,
+				5F6EFF2A24A136D10005A4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
